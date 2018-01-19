@@ -27,6 +27,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
     @Override
     public void onClick(View view) {
+        //set text view to input text
         textView.setText(text.getText());
     }
 }
